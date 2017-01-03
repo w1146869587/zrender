@@ -120,8 +120,6 @@ define(function () {
         // retina 屏幕优化
         devicePixelRatio: Math.max(window.devicePixelRatio || 1, 1)
     };
-    console.log('999999993333333333=======================')
-    console.log(config)
     return config;
 });
 

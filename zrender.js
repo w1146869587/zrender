@@ -520,10 +520,6 @@ define(
          * @param {Object} [context] 响应函数
          */
         ZRender.prototype.on = function(eventName, eventHandler, context) {
-            console.log('============6666666=========')
-            console.log(eventName)
-          console.log(eventHandler)
-          console.log(context)
             this.handler.on(eventName, eventHandler, context);
             return this;
         };
